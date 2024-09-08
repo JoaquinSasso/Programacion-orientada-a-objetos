@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar Paquete</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Registrar Paquete</h1>
+                    </div>
+                    <div class="card-body">
+                        <form action="/registrar_paquete" method="post">
+                            <div class="form-group">
+                                <label for="peso">Peso (gramos):</label>
+                                <input type="number" name="peso" id="peso" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nomdestinatario">Nombre del Destinatario:</label>
+                                <input type="text" name="nomdestinatario" id="nomdestinatario" class="form-control" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="dirdestinatario">Dirección del Destinatario:</label>
+                                <input type="text" name="dirdestinatario" id="dirdestinatario" class="form-control" required>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Registrar Paquete</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

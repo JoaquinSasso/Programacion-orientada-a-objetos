@@ -1,0 +1,67 @@
+{
+    "__class__": "gestorCalefactores",
+    "datos": [
+        {
+            "__class__": "electrico",
+            "__atributos__": {
+                "marca": "Peabody",
+                "modelo": "PE-VC20RN",
+                "origen": "Argentina",
+                "precio": 99234.56,
+                "cuotas": 4,
+                "promocion": true,
+                "potencia": 2000
+            }
+        },
+        {
+            "__class__": "gas",
+            "__atributos__": {
+                "marca": "Longvie",
+                "modelo": "Eca2s 2200",
+                "origen": "Argentina",
+                "precio": 146879.37,
+                "cuotas": 3,
+                "promocion": false,
+                "matricula": "GN M 01-0406-11-765",
+                "calorias": 2200
+            }
+        },
+        {
+            "__class__": "gas",
+            "__atributos__": {
+                "marca": "Eskabe",
+                "modelo": "S21 MX3 P",
+                "origen": "Argentina",
+                "precio": 146723.81,
+                "cuotas": 12,
+                "promocion": true,
+                "matricula": "GN M 01-0406-06-104",
+                "calorias": 3000
+            }
+        },
+        {
+            "__class__": "electrico",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "SG-Warmer",
+                "origen": "Corea del Sur",
+                "precio": 98342.55,
+                "cuotas": 6,
+                "promocion": true,
+                "potencia": 4000
+            }
+        },
+        {
+            "__class__": "electrico",
+            "__atributos__": {
+                "marca": "Samsung",
+                "modelo": "SG-HeatPro 1",
+                "origen": "Corea del Sur",
+                "precio": 87654.12,
+                "cuotas": 1,
+                "promocion": false,
+                "potencia": 2400
+            }
+        }
+    ]
+}

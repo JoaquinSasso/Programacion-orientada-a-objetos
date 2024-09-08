@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seleccionar Sucursal</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h1>Selecciona una Sucursal</h1>
+                    </div>
+                    <div class="card-body">
+                        <form action="/set_sucursal" method="post">
+                            <div class="form-group">
+                                <label for="sucursal">Sucursal:</label>
+                                <select name="sucursal" id="sucursal" class="form-control">
+                                    {% for sucursal in sucursales %}
+                                        <option value="{{ sucursal.id }}">{{sucursal.numero}}-{{sucursal.provincia}}-{{sucursal.localidad}}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

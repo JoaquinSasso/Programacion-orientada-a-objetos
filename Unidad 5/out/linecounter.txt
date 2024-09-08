@@ -1,0 +1,32 @@
+===============================================================================
+EXTENSION NAME : linecounter
+EXTENSION VERSION : 0.2.7
+-------------------------------------------------------------------------------
+count time : 2024-06-03 18:01:32
+count workspace : d:\Facultad\2do\Programación orientada a objetos\Unidad 5
+total files : 13
+total code lines : 179
+total comment lines : 0
+total blank lines : 54
+
+    statistics
+   |      extension|     total code|  total comment|    total blank|percent|
+   -------------------------------------------------------------------------
+   |          .html|             27|              0|              0|     15|
+   |           .ini|              6|              0|              0|    3.4|
+   |            .py|            146|              0|             54|     82|
+   -------------------------------------------------------------------------
+datos.sqlite3, it is a binary file.
+desktop.ini, code is 2, comment is 0, blank is 0.
+POO_Unidad5_Apunte.pdf, it is a binary file.
+Practico U5\desktop.ini, code is 2, comment is 0, blank is 0.
+Practico U5\main.py, code is 14, comment is 0, blank is 3.
+Practico U5\moduloPaquete.py, code is 44, comment is 0, blank is 17.
+Practico U5\moduloRepartidor.py, code is 26, comment is 0, blank is 10.
+Practico U5\moduloSucursal.py, code is 36, comment is 0, blank is 13.
+Practico U5\moduloTransporte.py, code is 26, comment is 0, blank is 11.
+Practico U5\PracticoU5.pdf, it is a binary file.
+Practico U5\templates\desktop.ini, code is 2, comment is 0, blank is 0.
+Practico U5\templates\inicio.html, code is 16, comment is 0, blank is 0.
+Practico U5\templates\saludo.html, code is 11, comment is 0, blank is 0.
+===============================================================================

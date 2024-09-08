@@ -1,0 +1,115 @@
+{
+    "extension": "linecounter",
+    "version": "0.2.7",
+    "workspace": "d:\\Facultad\\2do\\Programación orientada a objetos\\Unidad 5",
+    "linecount": [
+        {
+            "version": "0.2.7",
+            "counttime": "2024-06-03 18:01:32",
+            "filesum": 13,
+            "codesum": 179,
+            "commentsum": 0,
+            "blanksum": 54,
+            "statistics": {
+                ".html": {
+                    "code": 27,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".ini": {
+                    "code": 6,
+                    "comment": 0,
+                    "blank": 0
+                },
+                ".py": {
+                    "code": 146,
+                    "comment": 0,
+                    "blank": 54
+                }
+            },
+            "filelist": [
+                {
+                    "filename": "datos.sqlite3",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "desktop.ini"
+                },
+                {
+                    "filename": "POO_Unidad5_Apunte.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Practico U5\\desktop.ini"
+                },
+                {
+                    "blank": 3,
+                    "code": 14,
+                    "comment": 0,
+                    "filename": "Practico U5\\main.py"
+                },
+                {
+                    "blank": 17,
+                    "code": 44,
+                    "comment": 0,
+                    "filename": "Practico U5\\moduloPaquete.py"
+                },
+                {
+                    "blank": 10,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "Practico U5\\moduloRepartidor.py"
+                },
+                {
+                    "blank": 13,
+                    "code": 36,
+                    "comment": 0,
+                    "filename": "Practico U5\\moduloSucursal.py"
+                },
+                {
+                    "blank": 11,
+                    "code": 26,
+                    "comment": 0,
+                    "filename": "Practico U5\\moduloTransporte.py"
+                },
+                {
+                    "filename": "Practico U5\\PracticoU5.pdf",
+                    "isbinaryfile": true,
+                    "blank": 0,
+                    "code": 0,
+                    "comment": 0
+                },
+                {
+                    "blank": 0,
+                    "code": 2,
+                    "comment": 0,
+                    "filename": "Practico U5\\templates\\desktop.ini"
+                },
+                {
+                    "blank": 0,
+                    "code": 16,
+                    "comment": 0,
+                    "filename": "Practico U5\\templates\\inicio.html"
+                },
+                {
+                    "blank": 0,
+                    "code": 11,
+                    "comment": 0,
+                    "filename": "Practico U5\\templates\\saludo.html"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+<mxfile host="Electron" modified="2024-03-21T20:29:24.125Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.0.4 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="yAC7tAaFwn-4K06nshMH" version="24.0.4" type="device">
+  <diagram name="Página-1" id="CSxpgZ58ZRuXppJ0-Niw">
+    <mxGraphModel dx="704" dy="419" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-1" value="Calefactor" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="40" width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-2" value="- Marca: Cadena&lt;div&gt;- Modelo: Cadena&lt;/div&gt;&lt;div&gt;- País de Fabricación: Cadena&lt;/div&gt;&lt;div&gt;- Precio: Real&lt;/div&gt;&lt;div&gt;- Calorias/m3&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Q17JIFMXUZY1q4jYgsZg-1" vertex="1">
+          <mxGeometry y="26" width="190" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="Q17JIFMXUZY1q4jYgsZg-1" vertex="1">
+          <mxGeometry y="130" width="190" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-4" value="+ CrearCalefactor()&lt;div&gt;+ ConsultarPrecio()&lt;/div&gt;&lt;div&gt;+ CrearCalefactor()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Q17JIFMXUZY1q4jYgsZg-1" vertex="1">
+          <mxGeometry y="138" width="190" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-9" value="CalefactorE&lt;span style=&quot;background-color: initial;&quot;&gt;lectrico&lt;/span&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="290" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-10" value="- Potencia maxima: Real" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Q17JIFMXUZY1q4jYgsZg-9" vertex="1">
+          <mxGeometry y="26" width="190" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="urMBAouI4hz2xwddi43B-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;dashed=1;" edge="1" parent="1" source="Q17JIFMXUZY1q4jYgsZg-16" target="urMBAouI4hz2xwddi43B-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-16" value=":&lt;u&gt;CalefactorAGas&lt;/u&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="115" y="430" width="140" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-17" value="Samsung&lt;div&gt;SGHeater3&lt;/div&gt;&lt;div&gt;Corea del Sur&lt;/div&gt;&lt;div&gt;43200&lt;/div&gt;&lt;div&gt;2300&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Q17JIFMXUZY1q4jYgsZg-16" vertex="1">
+          <mxGeometry y="26" width="140" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-21" value=":&lt;u&gt;CalefactorElectrico&lt;/u&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="430" width="140" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Q17JIFMXUZY1q4jYgsZg-22" value="Electrolux&lt;div&gt;HeatPro2&lt;/div&gt;&lt;div&gt;Argentina&lt;/div&gt;&lt;div&gt;53254&lt;/div&gt;&lt;div&gt;3200&lt;/div&gt;&lt;div&gt;4500&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="Q17JIFMXUZY1q4jYgsZg-21" vertex="1">
+          <mxGeometry y="26" width="140" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="urMBAouI4hz2xwddi43B-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1.021;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="561.01" y="290" as="sourcePoint" />
+            <mxPoint x="470" y="116.024" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="561.01" y="116" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="urMBAouI4hz2xwddi43B-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="urMBAouI4hz2xwddi43B-2" target="Q17JIFMXUZY1q4jYgsZg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="urMBAouI4hz2xwddi43B-2" value="CalefactorAGas" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="290" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="urMBAouI4hz2xwddi43B-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.478;entryY=1.023;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="Q17JIFMXUZY1q4jYgsZg-21" target="Q17JIFMXUZY1q4jYgsZg-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

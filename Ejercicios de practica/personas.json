@@ -1,0 +1,65 @@
+{
+    "clase": "gestorPersonas",
+    "datos": [
+        {
+            "clase": "PoliciaForense",
+            "datos": {
+                "caso": "Narcotrafico",
+                "ide": "13",
+                "cargo": "teniente",
+                "placa": "87",
+                "password": "luquinha",
+                "nombre": "Lucas",
+                "apellido": "Valiente",
+                "nacimiento": "20/08/2003",
+                "dni": "44982342",
+                "antecedentes": []
+            }
+        },
+        {
+            "clase": "Policia",
+            "datos": {
+                "ide": null,
+                "cargo": "capitan",
+                "placa": "31",
+                "password": "gustavoceratti2004",
+                "nombre": "Noel",
+                "apellido": "Tejada",
+                "nacimiento": "24/05/2005",
+                "dni": "45876754",
+                "antecedentes": []
+            }
+        },
+        {
+            "clase": "Persona",
+            "datos": {
+                "nombre": "Valentin",
+                "apellido": "Vilches",
+                "nacimiento": "01/05/2004",
+                "dni": "45635995",
+                "antecedentes": []
+            }
+        },
+        {
+            "clase": "Persona",
+            "datos": {
+                "nombre": "Joaquin",
+                "apellido": "Sasso",
+                "nacimiento": "05/09/2003",
+                "dni": "44991289",
+                "antecedentes": [
+                    {
+                        "clase": "Antecedente",
+                        "datos": {
+                            "nro": 1,
+                            "motivo": "Exceso de facha",
+                            "fecha": "25/07/2024",
+                            "multa": 20.01,
+                            "condena": true
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
